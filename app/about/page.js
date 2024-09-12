@@ -5,10 +5,10 @@ import logo from "../../public/images/LOGO.png";
 import about from "../../public/images/about.png";
 import vision from "../../public/images/vision.png";
 
-import adarsh from "../../public/images/adarsh.png";
+import saurabh from "../../public/images/saurabh.jpg";
 import shivank from "../../public/images/shivank.jpg";
 import akhilesh from "../../public/images/akhilesh.png";
-import gupta from "../../public/images/gupta.png";
+import akshat from "../../public/images/akshat.jpg";
 import rishav from "../../public/images/rishav.jpeg"
 
 const page = () => {
@@ -96,11 +96,11 @@ const page = () => {
         <div className="flex justify-evenly gap-8 items-center mb-6">
           <div className="flex flex-col items-center">
             <Image
-              src={adarsh}
+              src={saurabh}
               className="w-[10rem] h-[10rem] border-slate-600 rounded-full"
-              alt="adarsh"
+              alt="Saurabh"
             />
-            <h4 className="font-semibold mt-3">Adarsh Kumar</h4>
+            <h4 className="font-semibold mt-3">Saurabh Verma</h4>
             <p className="font-semibold text-purple-600">Backend Developer</p>
           </div>
           <div className="flex flex-col items-center">
@@ -132,11 +132,11 @@ const page = () => {
           </div>
           <div className="flex flex-col items-center">
             <Image
-              src={gupta}
+              src={akshat}
               className="w-[10rem] h-[10rem] border rounded-full"
-              alt="nikhil"
+              alt="akshat"
             />
-            <h4 className="font-semibold mt-3">Nikhil Gupta</h4>
+            <h4 className="font-semibold mt-3">Akshat Sharma</h4>
             <p className="font-semibold text-purple-600 p-2">Frontend Developer</p>
           </div>
         </div>
